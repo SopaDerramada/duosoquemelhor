@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #0f1220;
+  color: #fff;
+  line-height: 1.6;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background: radial-gradient(circle, #1b1f3b, #0f1220);
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero h1 span {
+  color: #6c63ff;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 20px 0;
+  opacity: 0.9;
+}
+
+.btn {
+  background: #6c63ff;
+  color: white;
+  padding: 14px 28px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #5848e5;
+}
+
+section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.how .cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.card {
+  background: #1b1f3b;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 280px;
+}
+
+.boss {
+  background: #151833;
+}
+
+.ranking {
+  background: #1b1f3b;
+}
+
+.cta {
+  background: linear-gradient(135deg, #6c63ff, #4b47c5);
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  opacity: 0.6;
+}
