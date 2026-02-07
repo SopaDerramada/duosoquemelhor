@@ -7,10 +7,11 @@
 
 body {
   background: #0f1220;
-  color: #fff;
+  color: #ffffff;
   line-height: 1.6;
 }
 
+/* HERO */
 .hero {
   min-height: 100vh;
   display: flex;
@@ -36,25 +37,29 @@ body {
   opacity: 0.9;
 }
 
+/* BOTÕES */
 .btn {
   background: #6c63ff;
-  color: white;
+  color: #ffffff;
   padding: 14px 28px;
   text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
   transition: 0.3s;
+  display: inline-block;
 }
 
 .btn:hover {
   background: #5848e5;
 }
 
+/* SEÇÕES */
 section {
   padding: 80px 20px;
   text-align: center;
 }
 
+/* COMO FUNCIONA */
 .how .cards {
   display: flex;
   gap: 20px;
@@ -70,18 +75,31 @@ section {
   max-width: 280px;
 }
 
+/* BOSS */
 .boss {
   background: #151833;
 }
 
+/* RANKING */
 .ranking {
   background: #1b1f3b;
 }
 
+/* CTA */
 .cta {
   background: linear-gradient(135deg, #6c63ff, #4b47c5);
 }
 
+.cta p {
+  margin-top: 10px;
+}
+
+/* 🔧 CORREÇÃO DO BOTÃO */
+.cta .btn {
+  margin-top: 30px;
+}
+
+/* FOOTER */
 footer {
   padding: 20px;
   text-align: center;
